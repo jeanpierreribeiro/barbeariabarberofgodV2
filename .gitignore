@@ -1,0 +1,5 @@
+.vercel
+.DS_Store
+Thumbs.db
+*.vectorcraft
+node_modules

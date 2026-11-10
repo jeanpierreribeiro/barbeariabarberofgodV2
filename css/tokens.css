@@ -1,0 +1,84 @@
+/* Gerado por build.py a partir de tokens.json. */
+:root {
+  --gob-charcoal: #17191B;
+  --gob-ivory: #F4F1EB;
+  --gob-silver: #C7C7C7;
+  --gob-red: #C91822;
+  --gob-wood: #B07B49;
+  --gob-white: #FFFFFF;
+  --gob-stone: #E7E2D9;
+  --gob-graphite: #25282B;
+  --gob-muted-light: #5F6368;
+  --gob-muted-dark: #BABDBF;
+  --gob-border-light: #D8D3CB;
+  --gob-border-dark: #41464B;
+  --gob-control: #777C80;
+  --gob-red-hover: #AA141D;
+  --gob-red-active: #8F1018;
+  --gob-red-on-dark: #FF8B91;
+  --gob-success-light: #24623F;
+  --gob-success-dark: #A4D8B7;
+  --gob-warning-light: #79520E;
+  --gob-warning-dark: #E3C27F;
+  --gob-error-light: #A31823;
+  --gob-error-dark: #FFABB0;
+  --space-0: 0px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --font-display: "EFCO Barnis", Georgia, serif;
+  --font-signature: "Bia Demo", "Segoe UI", sans-serif;
+  --font-body: "Segoe UI", Arial, sans-serif;
+  --action: var(--gob-red);
+  --action-hover: var(--gob-red-hover);
+  --action-active: var(--gob-red-active);
+  --on-action: #FFFFFF;
+  --type-caption: 12px;
+  --type-small: 14px;
+  --type-body: 16px;
+  --type-lead: 20px;
+  --type-h3: 24px;
+  --type-h2: 40px;
+  --type-display: 64px;
+  --control-height: 48px;
+  --touch-min: 44px;
+  --radius-control: 4px;
+  --radius-dialog: 8px;
+  --focus-width: 2px;
+  --focus-offset: 3px;
+  --motion-fast: 120ms;
+  --motion-standard: 180ms;
+  --content-max: 1280px;
+}
+:root, [data-theme="light"] {
+  --canvas: var(--gob-ivory);
+  --surface: var(--gob-white);
+  --surface-subtle: var(--gob-stone);
+  --text: var(--gob-charcoal);
+  --text-muted: var(--gob-muted-light);
+  --border: var(--gob-border-light);
+  --control-border: var(--gob-control);
+  --accent-text: var(--gob-red-hover);
+  --success: var(--gob-success-light);
+  --warning: var(--gob-warning-light);
+  --error: var(--gob-error-light);
+}
+[data-theme="dark"] {
+  --canvas: var(--gob-charcoal);
+  --surface: var(--gob-graphite);
+  --surface-subtle: #303438;
+  --text: var(--gob-ivory);
+  --text-muted: var(--gob-muted-dark);
+  --border: var(--gob-border-dark);
+  --control-border: var(--gob-control);
+  --accent-text: var(--gob-red-on-dark);
+  --success: var(--gob-success-dark);
+  --warning: var(--gob-warning-dark);
+  --error: var(--gob-error-dark);
+}
