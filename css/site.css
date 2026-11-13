@@ -299,7 +299,8 @@ h3{font-size:21px;line-height:1.25;font-weight:650;letter-spacing:-.01em}
 .footer-links a:hover,.site-footer address a:hover{color:var(--accent-text)}
 .site-footer address a{text-decoration:underline;text-decoration-color:rgba(244,241,235,.35)}
 .footer-wordmark{margin-top:clamp(40px,6vw,80px);padding-inline:var(--gutter);opacity:.09;line-height:0}
-.footer-wordmark img{display:block;width:70%;max-width:none;margin-inline:auto;transform:translateX(4.5%)}
+.footer-wordmark img{display:block;width:49%;max-width:none;margin-inline:auto;transform:translateX(4.5%)}
+@media (max-width:899px){.footer-wordmark img{width:70%}}
 .footer-bottom{margin-top:clamp(20px,3vw,36px);padding-block:24px;border-top:1px solid var(--border);font-size:14px;color:var(--text-muted)}
 
 /* Barra fixa (celular) */
