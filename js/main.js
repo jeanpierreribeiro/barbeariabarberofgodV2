@@ -12,9 +12,6 @@
       el.setAttribute("href", "https://wa.me/" + number + "?text=" + encodeURIComponent(text));
       el.setAttribute("target", "_blank");
       el.setAttribute("rel", "noopener");
-      var label = el.getAttribute("data-label-wa");
-      var span = el.querySelector("span");
-      if (label && span) span.textContent = label;
     });
     doc.querySelectorAll("[data-whatsapp-item]").forEach(function (li) { li.hidden = false; });
   }
